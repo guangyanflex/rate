@@ -20,7 +20,7 @@ a simple vue rate component /一个简单的vue-rate评分组件
      <rate/>
 
 #### 其他用法
-     <rate v-model="3" :size="30" :length="6" frontColor="#f00" backColor="#ccc" :writeable="false"/>
+     <rate v-model="'3'" :size="30" :length="6" frontColor="#f00" backColor="#ccc" :writeable="false"/>
 
 #### 参数说明
 
