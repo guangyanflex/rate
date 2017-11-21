@@ -26,9 +26,9 @@ a simple vue rate component /一个简单的vue-rate评分组件
 
 |    参数名  |  默认值  |                           说明                          |        示例       |
 |-----------|---------|--------------------------------------------------------|-------------------|
-| value     | 5       |  默认前景星星的个数（即评分分数，可以为小数，使用v-model绑定）  | v-model="'3.5'"   |
-| size      | 25      |  星星的尺寸 （单位px,使用时不要加单位，纯数字）               | :size="30"        |
-| length    | 5       |  星星的个数（即 评分的总分数）                              | :length="6"       |
-| frontColor| #F7BA2A |  前景颜色 (即 已评分的星星颜色 )                            | frontColor="#f00" |
-| backColor | #D3DCE6 |  背后景颜色 (即 未评分的星星颜色 )                          | backColor="#ccc"  |
-| writeable | false   |  评分是否可以更改(为true时可点击更改评分，false时不能更改，纯展示)|:writeable=true |
+| value     | 5       |默认前景星星的个数（即评分分数，可以为小数，使用v-model绑定）    | v-model="'3.5'"   |
+| size      | 25      |星星的尺寸 （单位px,使用时不要加单位，纯数字）                 | :size="30"        |
+| length    | 5       |星星的个数（即 评分的总分数）                                | :length="6"       |
+| frontColor| #F7BA2A |前景颜色 (即 已评分的星星颜色 )                              | frontColor="#f00" |
+| backColor | #D3DCE6 |背后景颜色 (即 未评分的星星颜色 )                            | backColor="#ccc"  |
+| writeable | false   |评分是否可以更改(为true时可点击更改评分，false时不能更改，纯展示)|:writeable="true"  |
